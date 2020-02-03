@@ -1,0 +1,8 @@
+https://i.annihil.us/u/prod/marvel/i/mg/c/80/4bc5fe7a308d7/detail.jpg
+
+
+
+REf:
+https://developer.marvel.com/
+https://www.md5hashgenerator.com/
+http://flaviusmatis.github.io/simplePagination.js/

@@ -1,0 +1,26 @@
+body {
+  color: white;
+  background: black;
+}
+
+#container + div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 35px;
+}
+
+#comics {
+  background: red;
+}
+
+#personajes {
+  background: blue;
+}
+
+img {
+  height: 200px;
+}
+/*# sourceMappingURL=styles.css.map */
