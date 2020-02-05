@@ -1,14 +1,24 @@
 body {
   color: white;
   background: black;
-}
-
-#container + div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 1000px;
+}
+
+#container + div {
   margin: 35px;
 }
 
@@ -22,5 +32,9 @@ body {
 
 img {
   height: 200px;
+}
+
+ul li:last-child {
+  width: 100px;
 }
 /*# sourceMappingURL=styles.css.map */
