@@ -56,8 +56,6 @@ xhr.onload = function() {
 }
 xhr.send();
 
-
-
 // Lista de personajes
 var personajes = document.getElementById('personajes')
     // Request
